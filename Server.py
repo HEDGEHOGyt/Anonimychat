@@ -8,7 +8,7 @@ from pywebio.session import defer_call, info as session_info, run_async, run_js
 chat_msgs = []
 online_users = set()
 
-MAX_MESSAGES_COUNT = 1000
+MAX_MESSAGES_COUNT = 10000
 
 async def main():
     global chat_msgs
